@@ -1,5 +1,7 @@
+import 'package:elemsys/splashscreen.dart';
 import 'package:flutter/material.dart';
 import 'package:elemsys/homepage.dart'; // Importing the HomePage file
+import 'package:lottie/lottie.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const HomePage(), // Using the HomePage widget as the home page
+      home: const SplashScreen(), // Using the HomePage widget as the home page
     );
   }
 }
